@@ -19,17 +19,13 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
     </style>
-    <link rel="stylesheet" href="assets\css\mobile_style.css" />
+    <link rel="stylesheet" href="./assets/css/desktop_style.css" />
   </head>
   <body>
     <header>
-      <table>
-        <tr>
-          <td>
-            <img src="assets\images\logo.png" alt="logo epicode school" />
-          </td>
-        </tr>
-      </table>
+      <div>
+        <img src="assets\images\logo.png" alt="logo epicode school" />
+      </div>
       <section>
         <h1>Corso Web Developer</h1>
         <p>
@@ -43,33 +39,37 @@
     </header>
     <main id="main">
       <section>
-        <article>
-          <h4>Tutti ti cercheranno</h4>
-          <p>
-            Sono 30.000 in Italia le posizioni di developer scoperte, scegli
-            quella che ti stimola di più.
-          </p>
-        </article>
-        <article>
-          <h4>Lavora dove vuoi</h4>
-          <p>Lavora da casa, in riva al mare o in montagna.</p>
+        <div class="section-1">
           <img
             id="notebook_img"
             src="assets\images\notebook.jpg"
             alt="immagine lavoro da remoto"
           />
-        </article>
-        <article>
-          <h4>Scegli il tuo ruolo</h4>
-          <p>Potrai scegliere se essere Azienda, Freelance o Startup</p>
-        </article>
-        <article>
-          <h4>Lavoro in libertà</h4>
-          <p>
-            Non serve lavorare in ufficio per essere creatori di prodotti
-            digitali
-          </p>
-        </article>
+        </div>
+        <div id="div-2" class="section-1">
+          <figure>
+            <h4>Tutti ti cercheranno</h4>
+            <p>
+              Sono 30.000 in Italia le posizioni di developer scoperte, scegli
+              quella che ti stimola di più.
+            </p>
+          </figure>
+          <figure>
+            <h4>Lavora dove vuoi</h4>
+            <p>Lavora da casa, in riva al mare o in montagna.</p>
+          </figure>
+          <figure>
+            <h4>Scegli il tuo ruolo</h4>
+            <p>Potrai scegliere se essere Azienda, Freelance o Startup</p>
+          </figure>
+          <figure>
+            <h4>Lavoro in libertà</h4>
+            <p>
+              Non serve lavorare in ufficio per essere creatori di prodotti
+              digitali
+            </p>
+          </figure>
+        </div>
       </section>
       <aside>
         <h3>Epicode garantisce</h3>
@@ -82,26 +82,26 @@
         <small>CEO, Epicode</small>
       </aside>
       <section>
-        <article class="section-2">
+        <figure class="section-2">
           <img src="assets\images\foto1.jpg" alt="immagine notebook" />
           <h5>Il tuo PC</h5>
           <p>
             Se vuoi diventare developer è l'unico strumento di cui hai bisogno.
           </p>
-        </article>
-        <article class="section-2">
+        </figure>
+        <figure class="section-2">
           <img src="assets\images\foto2.jpg" alt="immagine notebook boost" />
           <h5>Impara ora</h5>
           <p>
             Impara da chi diventerai tra qualche anno, e diventa una rockstar
             come loro.
           </p>
-        </article>
-        <article class="section-2">
+        </figure>
+        <figure class="section-2">
           <img src="assets\images\foto3.jpg" alt="immagine lavoro in azienda" />
           <h5>Lavora subito</h5>
           <p>Sappiamo cosa vogliono le aziende, perché lavoriamo con loro.</p>
-        </article>
+        </figure>
       </section>
     </main>
     <footer>
